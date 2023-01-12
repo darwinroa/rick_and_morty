@@ -1,0 +1,16 @@
+input {
+    margin: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: chartreuse;
+    color: white;
+    border: solid 1px chartreuse;
+    transition: all .3s;
+}
+
+button:hover {
+    color: chartreuse;
+    background-color: transparent;
+}

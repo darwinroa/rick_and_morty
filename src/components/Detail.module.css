@@ -1,0 +1,14 @@
+.btn {
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(31, 12, 61);
+    color: white;
+    border: solid 1px rgb(40, 53, 40);
+    text-decoration: none;
+}
+
+.detailContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}

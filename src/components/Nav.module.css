@@ -1,0 +1,17 @@
+.nav {
+    background-color: rgb(62, 158, 151);
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 15%;
+}
+
+.menu {
+    width: 35%;
+}
+
+.search {
+    width: 50%;
+}

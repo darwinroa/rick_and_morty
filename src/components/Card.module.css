@@ -1,0 +1,41 @@
+.card {
+    box-shadow: 0 0 5px rgb(146, 146, 146);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    transition: scale .3s;
+    margin: 10px;
+    background-color: white;
+}
+
+.card:hover {
+    scale: 1.03;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    margin: 5px;
+    border: solid 1px #555;
+    border-radius: 2px;
+}
+
+.name {
+    width: fit-content;
+    padding: 0 3px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-top: -3rem;
+    position: relative;
+    left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}

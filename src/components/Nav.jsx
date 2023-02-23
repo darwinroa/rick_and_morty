@@ -16,6 +16,9 @@ export default function Nav({ onSearch, logout }) {
                         <Link to='/about'>About</Link>
                     </li>
                     <li>
+                        <Link to='/favorites'>Favorites</Link>
+                    </li>
+                    <li>
                         <Link to='/' onClick={logout}>Logout</Link>
                     </li>
                 </ul>
